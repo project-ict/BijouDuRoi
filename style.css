@@ -16,7 +16,7 @@ header, footer, nav{
 #container{
 	margin: 0px auto; 
 	padding: 10px; 
-	width: 770px;
+	width: 1000px;
 	background-repeat: no-repeat;
     background-color: rgba(5, 0, 0, 0.7);
 }
