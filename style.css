@@ -1,0 +1,112 @@
+/**ALGEMEEN**/
+@font-face{
+    font-family: CustomFont;
+    src: url(fonts/font.ttf);
+}
+*{
+    margin: 0px;
+	padding: 0px;
+	font-family: CustomFont;
+	color: white;
+	font-size: 100%;
+}
+header, footer, nav{
+	display: block;
+}
+#container{
+	margin: 0px auto; 
+	padding: 10px; 
+	width: 770px;
+	background-repeat: no-repeat;
+    background-color: rgba(5, 0, 0, 0.7);
+}
+body{
+	background: url(background/concrete_seamless.png);
+	background-color:rgba(255, 255, 255);
+}
+p{
+	margin-left:20px;
+	margin-right:20px;
+}
+h1{
+    display: table;
+    white-space: nowrap;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 50px;
+}
+h1:before{
+	right: 1.5%;
+}
+h1:after{
+	left: 1.5%;
+}
+h1:before, h1:after{
+      border-top: 1px solid white;
+      content: '';
+      display: table-cell;
+      position: relative;
+      top: 0.5em;
+      width: 40%;
+}
+ /**STARTPAGINA**/
+ .navbar{
+	background-color: rgba(0, 0, 0, 0);
+	border: none;
+}
+.navbar-nav {
+    width: 100%;
+    text-align: center;
+}
+.navbar-nav > li {
+      float: none;
+      display: inline-block;
+}
+.nav.navbar-nav li a {
+   color: #FFF;
+ }
+ .nav.navbar-nav li a:hover {
+   color: #000;
+ }
+.navbar-brand a{
+ 	color: #FFF;
+ 	font-size: 2.5em;
+ 	padding-top: 20px;
+ }
+/**HOTEL**/
+/**KAMERS**/
+.room-text{
+  width: 440px;
+  padding: 0px;
+  display: inline-block;
+}
+.room-image{
+  width: 325px;
+  display: inline-block;
+  vertical-align: top;
+}
+/**VOORZIENINGEN**/
+/**HOTEL**/
+/**VOORZIENINGEN**/
+#left-side{
+  padding: 0px;
+  display: inline-block;
+}
+#right-side{
+  width: 325px;
+  display: inline-block;
+  vertical-align: top;
+}
+/**BEZIENSWAARDIGHEDEN**/
+.Inspringen img{
+	margin-left:20px;
+	margin-bottom:20px;
+	border-radius: 20px 20px 20px 20px; border: 5px outset rgb(80, 150, 255);
+}
+.Inspringen{
+	margin-left:10px;
+}
+/**OMGEVING**/
+/**EVENEMENTEN**/
+/**CONTACT**/
