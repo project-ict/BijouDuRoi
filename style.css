@@ -16,7 +16,7 @@ header, footer, nav{
 #container{
 	margin: 0px auto; 
 	padding: 10px; 
-	width: 900px;
+	width: 950px;
 	background-repeat: no-repeat;
     background-color: rgba(5, 0, 0, 0.7);
 }
@@ -38,10 +38,10 @@ h1{
 	font-size: 50px;
 }
 h1:before{
-	right: 1.5%;
+	right: 1.15%;
 }
 h1:after{
-	left: 1.5%;
+	left: 1.15%;
 }
 h1:before, h1:after{
       border-top: 1px solid white;
@@ -51,54 +51,55 @@ h1:before, h1:after{
       top: 0.5em;
       width: 40%;
 }
-#lijn{
-	
-}
  /**INDEX**/
  .navbar{
 	background-color: rgba(0, 0, 0, 0);
 	border: none;
 }
-.navbar-nav {
-    width: 100%;
-    text-align: center;
-}
-.navbar-nav > li {
-      float: none;
-      display: inline-block;
-}
 .nav.navbar-nav li a {
-   color: #FFF;
+   color: white;
+   text-decoration: none;
  }
  .nav.navbar-nav li a:hover {
    color: #000;
  }
-.navbar-brand a{
- 	color: #FFF;
- 	font-size: 2.5em;
- 	padding-top: 20px;
+ .nav.navbar-nav{
+	margin:40px 0px 0px 137px;	
+	width: 800px;
+	padding: 0px;
+	font-size: 16px;
  }
- #titel{
-	position: absolute;
-	margin-left: 190px;
-	margin-top: 0px;
+ .navbar-header h2 {
+ 	margin-top:0px;
+ 	padding-top:0px;
+ }
+ #titelheader{
+ 	font-size:3em;
+ 	margin-left:7px;
+ }
+ #bootstrap{
+ 	margin-top: 15px;
+ 	margin-left: 7px;
+ }
+.navbar-header a{
+ 	text-decoration: none;
 }
-#logo{
-	position: absolute;
-	margin-left: 0px;
-	margin-top: 0px;
-	width: 150px;
+header{
+	height:150px;
 }
 /**KAMERS**/
 .room-text{
   width: 440px;
   padding: 0px;
   display: inline-block;
+  margin-left:20px;   /**toegevoegd**/
+
 }
 .room-image{
-  width: 325px;
   display: inline-block;
   vertical-align: top;
+  border-radius: 20px 20px 20px 20px;  /**toegevoegd**/
+  border: 5px outset rgb(0, 0, 0); /**toegevoegd**/
 }
 /**VOORZIENINGEN**/
 #left-side{
@@ -106,9 +107,11 @@ h1:before, h1:after{
   display: inline-block;
 }
 #right-side{
-  width: 325px;
   display: inline-block;
   vertical-align: top;
+}
+.Lijst{				/**toegevoegd**/
+	margin-left:50px;
 }
 /**BEZIENSWAARDIGHEDEN**/
 .Inspringen img{
@@ -126,3 +129,19 @@ a{
 	color:white;
 }
 /**CONTACT**/
+
+/**FOOTER**/
+.Right{
+	text-align:right;
+}
+td>img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5em;
+    height: 2.5em;
+}
+td{
+	padding-left:20px;
+	padding-right:20px;
+}

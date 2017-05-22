@@ -1,36 +1,61 @@
 <!DOCTYPE html>
-<html>
+<html lang="nl">
 <head>
-<title>Startpagina</title>
-<link href="css/bootstrap.min.css" rel="stylesheet" />
-<link href="style.css" rel="stylesheet" type="text/css" />
+	<meta charset="UTF-8">
+	<title>Bijoux du Roi &middot; Home</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet" />
+	<link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
 <div id="container"> <!--CONTAINER-->
 
 <header>
-<div class="navbar navbar-default"><!--NAVBAR-DEFAULT-->
-<span class="navbar-brand"><a id="titel">Bijoux du Roi</a></span>
-<img id="logo" src="images/logo.png" alt="logo" />
-<div class="navbar"> <!--NAVBAR-->
-<ul class="nav navbar-nav">
-	<li><a href="index.html">Home</a></li>
-	<li><a href="kamers.html">Kamers</a></li>
-	<li><a href="voorzieningen.html">Voorzieningen</a></li>
-	<li><a href="bezienswaardigheden.html">Bezienswaardigheden</a></li>
-	<li><a href="omgeving.html">Omgeving</a></li>
-	<li><a href="kalender/demos/evenementen.html">Evenementen</a></li>
-	<li><a href="contact.html">Contact</a></li>
-</ul>
-</div> <!--/NAVBAR-->
-</div> <!--/NAVBAR-DEFAULT-->
+<nav class="navbar navbar-default" role="navigation"><!--NAVBAR-DEFAULT-->
+<div class="row"> <!--ROW-->
+
+  <div class="navbar-header">
+  	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-content">
+  		<span class="sr-only">Toggle navigation</span>
+  		<span class="icon-bar"></span>
+  		<span class="icon-bar"></span>
+  		<span class="icon-bar"></span>
+  	</button>
+  	<h2 class="navbar-brand brand-name">
+  	<a href="index.html" >
+  	<img src="images/logo.png" id="bootstrap" alt="Bootstrap" height="130" width="130" />
+	<span class="hidden-xs" id="titelheader">Bijoux du Roi</span></a></h2>
+  </div>
+  
+</div> <!--/ROW-->
+<div class="row"> <!--ROW-->
+<nav class="collapse navbar-collapse" id="nav-content"> <!--NAVBAR-->
+	<ul class="nav navbar-nav">
+		<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+		<li class="nav-item"><a class="nav-link" href="kamers.html">Kamers</a></li>
+		<li class="nav-item"><a class="nav-link" href="voorzieningen.html">Voorzieningen</a></li>
+		<li class="nav-item"><a class="nav-link" href="bezienswaardigheden.html">Bezienswaardigheden</a></li>
+		<li class="nav-item"><a class="nav-link" href="omgeving.html">Omgeving</a></li>
+		<li class="nav-item"><a class="nav-link" href="kalender/demos/evenementen.html">Evenementen</a></li>
+		<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+	</ul>
+</nav> <!--/NAVBAR-->
+</div> <!--/ROW-->
+</nav> <!--/NAVBAR-DEFAULT-->
 </header>
 
 <h1>Startpagina</h1>
-
+<hr />
 <footer>
-<hr id="lijn"/>
+<table  style="width:100%">
+  <tr>
+    <td>152 Avenue des Champs-Élysées<br />
+		75008 Parijs, Frankrijk<br />
+		833/34 59 06</td>
+    <td><img src="images/facebook_twitter.png"/></td>
+    <td><div class="Right">© 2017 by students UCLL.</div></td>
+  </tr>
+ </table>
 </footer>
 </div> <!--/CONTAINER-->
 </body>
